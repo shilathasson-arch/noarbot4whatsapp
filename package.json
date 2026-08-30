@@ -1,0 +1,15 @@
+{
+  "name": "noar-hamitnadev-whatsapp-bot",
+  "version": "1.0.0",
+  "description": "WhatsApp bot for Noar Hamitnadev using the official WhatsApp Business Cloud API",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js",
+    "check": "node --check bot.js && node --check messages.js && node --check googleSheets.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^5.1.0",
+    "googleapis": "^144.0.0"
+  }
+}
